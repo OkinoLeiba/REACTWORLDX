@@ -1,0 +1,66 @@
+﻿
+html, div.polaroid {
+    background: url(Images/background_admin.jpg), no-repeat, center, scroll;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+span {
+    font-style: italic;
+}
+
+div.container {
+    margin-top: 20%;
+    line-height: 5.5px;
+    color: deepskyblue;
+    animation: blinker 3.5s linear infinite;
+}
+
+    div.container:link {
+        color: #ff0000;
+    }
+
+    div.container:hover {
+        color: #8c19a4;
+        width: inherit;
+    }
+
+@keyframes blinker {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+div.polaroid {
+    margin: 20%;
+    background-color: blanchedalmond;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
+    margin-bottom: 20px;
+}
+
+div.text-container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+div {
+    text-align: center;
+    font-size: 50px;
+}

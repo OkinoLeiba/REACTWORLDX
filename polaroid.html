@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <title>Polariod React</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+
+</head>
+<body>
+    <div id="polaroid" class="polaroid"></div>
+    <div id="polaroid-html" class="polaroid-html">
+        <img src="Images/background_admin.jpg" alt="background" loading="eager" />
+        <div id="text-container" className="text-container">
+            <p>Memories of Worlds, Hello</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="bundle.js"></script>
+    <!--Load React-->
+    <!--Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script type="text/javascript" src="https://unpkg.com/react@18/umd/react.development.js" crossorigin="anonymous" referrerpolicy="origin-when-cross-origin"></script>
+    <script type="text/javascript" src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin="anonymous" referrerpolicy="origin-when-cross-origin"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+    <!--Load React js-->
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="polaroid.js"></script>
+</body>
+</html>
